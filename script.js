@@ -66,7 +66,7 @@ function onEachFeature(feature, layer) {
 }
 
 // Info control
-var info = L.control({position: 'bottomleft'});
+var info = L.control({position: 'topright'});
 
 info.onAdd = function (map) {
     this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
